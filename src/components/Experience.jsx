@@ -1,15 +1,17 @@
 import React from "react";
 import react from "../assets/react.png";
 import mysql from "../assets/mysql.png";
-import css from "../assets/css.png";
-import node from "../assets/node.png";
-import html from "../assets/html.png";
+import css from "../assets/tailwind.png";
+import node from "../assets/nodes.png";
+import html from "../assets/html5.png";
 import typescript from "../assets/typescript.png";
 import nextjs from "../assets/nextjs.png";
 import javascript from "../assets/javascript.png";
 import expressjs from "../assets/expressjs.png";
 import mongodb from "../assets/mongodb.png";
-
+import git from "../assets/github.png";
+import docker from "../assets/docker.jpeg";
+import genAI from "../assets/genAI.jpeg";
 
 const Experience = () => {
   const techs = [
@@ -21,58 +23,49 @@ const Experience = () => {
     },
     {
       id: 2,
-      src: react,
-      title: "React",
-      style: "shadow-sky-500",
-    },
-   
-     {
-      id: 3,
-      src: node,
-      title: "Node.js",
-      style: "shadow-gray-400",
-    },
-    {
-      id: 4,
       src: typescript,
       title: "Typescript",
       style: "shadow-yellow-500",
     },
-    {id: 5,
-      src: html,
-      title: "HTML",
-      style: "shadow-sky-700",
-      
+    { id: 3, src: html, title: "HTML5 & CSS3", style: "shadow-blue-800" },
+    {
+      id: 4,
+      src: react,
+      title: "React",
+      style: "shadow-sky-500",
     },
+    {
+      id: 5,
+      src: nextjs,
+      title: "Next.js",
+      style: "shadow-yellow-500",
+    },
+
     {
       id: 6,
       src: css,
-      title: "CSS",
-      style: "shadow-sky-700",
-    },
-    {
-      id: 7,
-      src: nextjs,
-      title: "Next.js",
+      title: "Tailwind CSS & Material UI",
       style: "shadow-blue-800",
     },
+
+    {
+      id: 7,
+      src: node,
+      title: "Node.js",
+      style: "shadow-sky-500",
+    },
+
     {
       id: 8,
       src: expressjs,
       title: "Express.js",
-      style: "shadow-gray-400",
+      style: "shadow-yellow-500",
     },
-    {id: 9,
-      src: mongodb,
-      title: "Mongodb",
-      style: "shadow-sky-700",
-    },
-    {id: 10,
-      src: mysql,
-      title: "My SQL",
-      style: "shadow-sky-700",
-    },
-  
+    { id: 9, src: mongodb, title: "Mongodb & Mongoose", style: "shadow-blue-800" },
+    { id: 10, src: mysql, title: "My SQL", style: "shadow-sky-500" },
+    { id: 11, src: git, title: "Github", style: "shadow-yellow-500" },
+    { id: 12, src: docker, title: "Docker", style: "shadow-blue-800" },
+    { id: 13, src: genAI, title: "GenAI", style: "shadow-sky-700" },
   ];
 
   return (
@@ -94,7 +87,7 @@ const Experience = () => {
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto" />
+              <img src={src} alt={title} className="w-20 h-20 object-contain mx-auto" />
               <p className="mt-4">{title}</p>
             </div>
           ))}
