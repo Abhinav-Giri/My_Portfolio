@@ -6,7 +6,7 @@ const Contact = () => {
       name="contact"
       className="w-full px-20 pt-20 text-white bg-gradient-to-b from-black to-gray-800 lg:px-0"
     >
-      <div className="flex flex-col h-full max-w-screen-lg p-4 mx-auto justify-centre">
+      <div className="flex flex-col h-full max-w-screen-lg p-4 mx-auto justify-center">
         <div className="pb-8">
           <p className="inline text-4xl font-bold border-b-4 border-gray-500">
             Contact
@@ -14,7 +14,7 @@ const Contact = () => {
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
 
-        <div className="flex items-center justify-center ">
+        <div className="flex items-center justify-center">
           <form
             action="https://getform.io/f/5335a8d3-6b7c-43b2-9bef-a80d622ce8db"
             method="POST"
@@ -24,28 +24,40 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Enter your name"
-              className="p-2 text-white bg-transparent border-2 rounded-md focus:outline-none"
+              required
+              aria-label="Name"
+              className="p-2 text-white bg-transparent border-2 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500"
             />
+
             <input
-              type="text"
+              type="email"
               name="email"
               placeholder="Enter your email"
-              className="p-2 my-4 text-white bg-transparent border-2 rounded-md focus:outline-none"
+              required
+              aria-label="Email"
+              className="p-2 my-4 text-white bg-transparent border-2 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500"
             />
+
             <textarea
               name="message"
               placeholder="Enter your message"
               rows="10"
-              className="p-2 text-white bg-transparent border-2 rounded-md focus:outline-none"
+              required
+              aria-label="Message"
+              className="p-2 text-white bg-transparent border-2 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500"
             ></textarea>
 
-            <button className="flex items-center px-6 py-3 mx-auto my-8 text-white duration-300 rounded-md bg-gradient-to-b from-cyan-500 to-blue-500 hover:scale-110">
+            <button
+              type="submit"
+              className="flex items-center px-6 py-3 mx-auto my-8 text-white duration-300 rounded-md bg-gradient-to-b from-cyan-500 to-blue-500 hover:scale-110"
+            >
               Let's talk
             </button>
           </form>
         </div>
       </div>
-      <footer className="text-center">
+
+      <footer className="mt-10 text-center">
         Made with ❤️ by Abhinav Giri
       </footer>
     </div>

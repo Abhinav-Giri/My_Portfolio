@@ -1,7 +1,7 @@
 import React from "react";
 // import whitelist_dapp from "../assets/portfolio/whitelist_dapp.png";
 import contact from "../assets/portfolio/contact-manager.png";
-// import portfolio from "../assets/portfolio/portfolio.png";
+import shaadiBio from "../assets/portfolio/shaadiBio.jpg";
 import hospital_management from "../assets/portfolio/hospital_management.jpg";
 // import songs_playlist from "../assets/portfolio/songs_playlist.png";
 import admin from "../assets/portfolio/admin-dashboard.png";
@@ -9,13 +9,13 @@ import search from "../assets/portfolio/Search_Movie.png";
 
 const Portfolio = () => {
   const portfolios = [
-    // {
-    //   id: 1,
-    //   desc:"1. Portfolio Project",
-    //   src: portfolio,
-    //   website: "https://portfolio-abhinav-giri.vercel.app/",
-    //   github: "https://github.com/Abhinav-Giri/portfolio"
-    // },
+    {
+      id: 1,
+      desc:"1. Shaadi Bio",
+      src: shaadiBio,
+      website: "https://shaadibio-one.vercel.app/",
+      github: "https://github.com/Abhinav-Giri/ShaadiBio_MERN-App"
+    },
     {
       id:2,
       desc:"2. Search_Movie",
