@@ -2,10 +2,11 @@ import React from "react";
 // import whitelist_dapp from "../assets/portfolio/whitelist_dapp.png";
 import contact from "../assets/portfolio/contact-manager.png";
 import shaadiBio from "../assets/portfolio/shaadiBio.jpg";
-import hospital_management from "../assets/portfolio/hospital_management.jpg";
-// import songs_playlist from "../assets/portfolio/songs_playlist.png";
-import admin from "../assets/portfolio/admin-dashboard.png";
-import search from "../assets/portfolio/Search_Movie.png";
+import ev from "../assets/portfolio/electric-vechile.jpg";
+import gamed from "../assets/portfolio/game-dashboard.png";
+import search from "../assets/portfolio/movie-search.jpg";
+import cdn from "../assets/portfolio/cdn_generator.jpg";
+
 
 const Portfolio = () => {
   const portfolios = [
@@ -20,50 +21,51 @@ const Portfolio = () => {
       id:2,
       desc:"2. Search_Movie",
       src: search,
-      website: "",
-      github: "https://github.com/Abhinav-Giri/Search_Movie_Project"
+      website: "https://searchmovie-rho.vercel.app/",
+      github: "https://github.com/Abhinav-Giri/Search_Movie_Project--ReactJs-NodeJs"
     },
-    
      {
       id: 3,
-        desc:"3. Contact Manager --backend",
+        desc:"3. Live Gaming Leadership Board",
+      src: gamed,
+      website: "https://game-leadership-board.vercel.app/",
+      github: "https://github.com/Abhinav-Giri/Live-Leadership-Board-Gaming-"
+     
+    },
+     
+    {
+      id: 4,
+      desc:"4. Electric Vechile Dashboard",
+      src: ev,
+      website: "https://electric-vechile-assessment-dashboard-xs6p.vercel.app/",
+      github: "https://github.com/Abhinav-Giri/Electric_Vechile_Dashboard--ReactJs"
+    },
+   
+   
+    {
+      id: 5,
+        desc:"3.Olive Webpage",
       src: contact,
-      website: "",
-      github: "https://github.com/Abhinav-Giri/Contact-Manager--backend"
+      website: "https://olive-landing-web-page.vercel.app/",
+      github: "https://github.com/Abhinav-Giri/olive_landing-WebPage"
      
     },
     {
-      id: 4,
-      desc:"4. Admin Dashboard",
-      src: admin,
-      website: "",
-      github: "https://github.com/Abhinav-Giri/Admin-Dashboard"
+      id: 6,
+        desc:"3. cdn_generator",
+      src: cdn,
+      website: "https://chatbot-cdngenerator.vercel.app/",
+      github: "https://github.com/Abhinav-Giri/Chatbot_Generator-cdn_integrator"
+     
     },
-    {
-      id: 5,
-      desc:"5. Hospital Booking Management",
-      src: hospital_management,
+     {
+      id: 7,
+      desc:"7. ",
+      src: "",
       website: "",
-      github: "https://github.com/Abhinav-Giri/Hospital_Management--MERN"
-    }
-   
-    // {
-    //   id: 6,
-    //   desc:"6. Solidity Project",
-    //   src: whitelist_dapp,
-    //   website: "https://whitelist-dapp-abhinav-giri.vercel.app/",
-    //   github: "https://github.com/Abhinav-Giri/Whitelist-DApp"
-    // }
-    // ,
-    //  {
-    //   id: 7,
-    //   desc:"7. Songs Playlist",
-    //   src: songs_playlist,
-    //   website: "https://whitelist-dapp-abhinav-giri.vercel.app/",
-    //   github: "https://github.com/Abhinav-Giri/Whitelist-DApp"
-    // }
+      github: ""
+    },
   ];
-
   return (
     <div
       name="portfolio"
