@@ -1,9 +1,8 @@
 import React from "react";
-// import whitelist_dapp from "../assets/portfolio/whitelist_dapp.png";
 import contact from "../assets/portfolio/contact-manager.png";
 import shaadiBio from "../assets/portfolio/shaadiBio.jpg";
 import ev from "../assets/portfolio/electric-vechile.jpg";
-import gamed from "../assets/portfolio/game-dashboard.png";
+import gamed from "../assets/portfolio/game-dashboard.jpg";
 import search from "../assets/portfolio/movie-search.jpg";
 import cdn from "../assets/portfolio/cdn_generator.jpg";
 
