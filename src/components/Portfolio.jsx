@@ -1,10 +1,12 @@
 import React from "react";
-import contact from "../assets/portfolio/contact-manager.png";
+import olive from "../assets/portfolio/olive.jpg";
 import shaadiBio from "../assets/portfolio/shaadiBio.jpg";
 import ev from "../assets/portfolio/electric-vechile.jpg";
 import gamed from "../assets/portfolio/game-dashboard.jpg";
 import search from "../assets/portfolio/movie-search.jpg";
 import cdn from "../assets/portfolio/cdn_generator.jpg";
+import admin from "../assets/portfolio/admin-dashboard.png";
+
 
 const Portfolio = () => {
   const portfolios = [
@@ -42,26 +44,26 @@ const Portfolio = () => {
 
     {
       id: 5,
-      desc: "5.Olive Webpage",
-      src: contact,
+      desc: "5.Olive Landing Page",
+      src: olive,
       website: "https://olive-landing-web-page.vercel.app/",
       github: "https://github.com/Abhinav-Giri/olive_landing-WebPage",
     },
     {
       id: 6,
-      desc: "6. cdn_generator",
+      desc: "6. Smart cdn_generator",
       src: cdn,
       website: "https://chatbot-cdngenerator.vercel.app/",
       github:
         "https://github.com/Abhinav-Giri/Chatbot_Generator-cdn_integrator",
     },
-    //  {
-    //   id: 7,
-    //   desc:"7. ",
-    //   src: "",
-    //   website: "",
-    //   github: ""
-    // },
+     {
+      id: 7,
+      desc:"7. Admin Dashboard",
+      src: admin,
+      website: "https://admindashboard-sigma-inky.vercel.app/",
+      github: "https://github.com/Abhinav-Giri/Admin_Dashboard"
+    },
   ];
   return (
     <div
