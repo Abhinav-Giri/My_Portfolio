@@ -15,10 +15,10 @@ const Home = () => {
             I am Abhinav Giri   
             </h2>
           <h2 className="text-2xl font-bold text-white sm:text-4xl">
-             (SDE)
+             (Software Engineer)
           </h2>
           <p className="max-w-md py-4 text-gray-500">
-          I believe in continuous learning and very excited and passionate about growing my carrier as a Software Development Engineer.
+         I’m deeply driven by continuous learning and passionate about evolving into a high-impact engineer who builds meaningful solutions.
           </p>
 
           <div>
