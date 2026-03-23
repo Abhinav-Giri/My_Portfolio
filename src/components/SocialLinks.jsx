@@ -34,7 +34,7 @@ const SocialLinks = () => {
       id: 5,
       label: "Resume",
       icon: <BsFillPersonLinesFill size={30} />,
-      href: "/resume-abhinav-giri.pdf", // place in /public
+      href: "/Resume of Abhinav Giri.pdf", // place in /public
       style: "rounded-br-md",
       download: true,
     },
